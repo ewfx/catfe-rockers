@@ -1,61 +1,35 @@
-# 🚀 Project Name
+How to Run the Application
+Start the Spring Boot backend:
 
-## 📌 Table of Contents
-- [Introduction](#introduction)
-- [Demo](#demo)
-- [Inspiration](#inspiration)
-- [What It Does](#what-it-does)
-- [How We Built It](#how-we-built-it)
-- [Challenges We Faced](#challenges-we-faced)
-- [How to Run](#how-to-run)
-- [Tech Stack](#tech-stack)
-- [Team](#team)
+OPEN bash
+Copy cd backend [catfe-rockers]
+./gradlew bootRun
+Start the Angular frontend:
 
----
-
-## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
-
-## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
-
-![Screenshot 1](link-to-image)
-
-## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
-
-## ⚙️ What It Does
-Explain the key features and functionalities of your project.
-
-## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
-
-## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
-
-## 🏃 How to Run
-1. Clone the repository  
-   ```sh
-   git clone https://github.com/your-repo.git
-   ```
-2. Install dependencies  
-   ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
-   ```
-3. Run the project  
-   ```sh
-   npm start  # or python app.py
-   ```
+OPEN bash
+Copy cd frontend [UI-Angular-Module]
+ng serve
+Open your browser to http://localhost:4200
 
 
-## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+[Features]
+Full-stack application with Java/Spring Boot backend and Angular frontend
 
-## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+Interactive UI with form validation
+
+Responsive design using Angular Material
+
+Error handling with user feedback
+
+API documentation via Swagger UI (available at http://localhost:8080/api/swagger-ui.html)
+
+[Configuration]
+Remember to:
+
+Setup required for OpenAI API key in application.yml
+
+Configure CORS in the Spring Boot application if needed
+
+Adjust ports as necessary for your environment
+
+This implementation provides a complete, production-ready solution for dynamically generating payment test cases with a modern web interface.
