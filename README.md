@@ -49,6 +49,7 @@ Describe the major technical or non-technical challenges your team encountered.
    npm start  # or python app.py
    ```
 
+
 ## 🏗️ Tech Stack
 - 🔹 Frontend: React / Vue / Angular
 - 🔹 Backend: Node.js / FastAPI / Django
