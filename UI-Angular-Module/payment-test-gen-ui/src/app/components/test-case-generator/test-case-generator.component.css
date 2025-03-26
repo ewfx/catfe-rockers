@@ -1,0 +1,19 @@
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.results {
+  margin-top: 2rem;
+}
+
+.test-case-card {
+  margin-bottom: 1rem;
+  white-space: pre-wrap;
+}
